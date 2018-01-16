@@ -1,3 +1,8 @@
+if exists('g:multpurposetabkey')
+    finish
+endif
+let g:multpurposetabkey = 1
+
 function! MultiPurposeTab()
     let col = col('.') - 1
     if !col || getline('.')[col -1] !~ '\k'

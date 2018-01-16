@@ -1,0 +1,9 @@
+O comanado abaixo é para ser usado na criação do container do editor para configuração do .vimrc
+De acordo com o que for passado de parâmetro, o dockerfile vai adicionar para cada parâmetro 
+uma linha nova no .vimrc, de modo que os plugins sejam inseridos corretamente em tempo de execução.
+
+sed -i '/bundle '"'"'daniel\/plugin1'"'"'/a bundle '"'"'daniel\/plugin2'"'" teste.txt
+
+
+bundle 'daniel/plugin1'
+bundle 'daniel/plugin3'

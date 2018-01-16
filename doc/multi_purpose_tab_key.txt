@@ -1,0 +1,12 @@
+Author: Daniel dos Santos <@danielfoxp2>
+License: There's none. Do whatever you want, I don't care.
+
+INTRODUCTION
+
+This plugin deal with the tab key behaviour while in Insert Mode
+and it is very simple:
+1- If you are in the begining of a line => do indentation;
+2- Else => do completion;
+
+This plugin was grabbed from .vimrc of Gary Bernhardt,
+who is a great inspiration for me.
